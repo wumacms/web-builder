@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.pnpm-debug.log*
+.yarn/install-state.gz
+.yarn/cache
+.yarn/debug
+.yarn/error
+
+# Lockfiles（使用 pnpm 时忽略 npm/yarn 锁文件）
+package-lock.json
+yarn.lock
+
+# Build & output
+.next/
+out/
+build/
+.vercel
+
+# Testing
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs & debug
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE & editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+*.pem
+*.tsbuildinfo
+.turbo
